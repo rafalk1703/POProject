@@ -21,7 +21,6 @@ public class Judgment
     String meansOfAppeal, judgmentResult;
     List<String> lowerCourtJudgments;
     PersonnelType personnelType;
-    JudgmentForm judgmentForm;
     int divisionId;
     List<Chamber> chambers;
     Date judgmentDate;
@@ -186,16 +185,6 @@ public class Judgment
     public void setJudgmentResult(String judgmentResult) {
 
         this.judgmentResult = judgmentResult;
-    }
-
-    public JudgmentForm getJudgmentForm() {
-
-        return judgmentForm;
-    }
-
-    public void setJudgmentForm(JudgmentForm judgmentForm) {
-
-        this.judgmentForm = judgmentForm;
     }
 
 
