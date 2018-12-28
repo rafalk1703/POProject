@@ -30,6 +30,35 @@ public class HtmlParser {
         return judgment;
     }
 
+    public HashMap<String, Judgment> parse(File f)
+    {
+
+
+        HashMap<String, Judgment> hashmap = new HashMap<>();
+        List<Judgment> judgments = new ArrayList<>();
+        File[] files = f.listFiles();
+
+        if (files == null) {
+            System.out.println("Brak plików .Html w tym folderze");
+            return null;
+        }
+        for (File file : files) {
+            if (file.isFile() && file.getName().endsWith(".Html")) {
+                judgments.add(parseFile(file.toString()));
+            }
+        }
+
+
+        for (Judgment judgment : judgments) {
+            hashmap.put(judgment.getCourtCases().get(0).caseNumber, judgment);
+        }
+
+
+        return hashmap;
+
+
+    }
+
     private List<CourtCase> getSignature() {
         String string = document.select("war_header").text();
         int index = string.indexOf("-");
@@ -138,34 +167,7 @@ public class HtmlParser {
 
 
 
-        public HashMap<String, Judgment> parse(File f)
-        {
 
-
-            HashMap<String, Judgment> hashmap = new HashMap<>();
-            List<Judgment> judgments = new ArrayList<>();
-            File[] files = f.listFiles();
-
-            if (files == null) {
-                System.out.println("Brak plików .Html w tym folderze");
-                return null;
-            }
-            for (File file : files) {
-                if (file.isFile() && file.getName().endsWith(".Html")) {
-                    judgments.add(parseFile(file.toString()));
-                }
-            }
-
-
-            for (Judgment judgment : judgments) {
-                hashmap.put(judgment.getCourtCases().get(0).caseNumber, judgment);
-            }
-
-
-            return hashmap;
-
-
-        }
 
 
 }
