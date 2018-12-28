@@ -38,11 +38,14 @@ public class JudgmentFunc {
         //V
         public String judgementsPerJudge(String name){
             int result = 0;
-            Judge judge=new Judge();
-            judge.name=name;
+
             for(Judgment judgment : judgmentHashMap.values()){
-                if(judgment.getJudges().contains(judge)){
-                    result++;
+                int i = judgment.getJudges().size();
+                while(i>0) {
+                    if (judgment.getJudges().get(i).name == name) {
+                        result++;
+                    }
+                    i--;
                 }
             }
             return Integer.toString(result);

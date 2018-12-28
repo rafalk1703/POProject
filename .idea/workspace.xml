@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="932adade-6686-4c64-89f8-c49324ec22e5" name="Default Changelist" comment="">
+    <list default="true" id="932adade-6686-4c64-89f8-c49324ec22e5" name="Default Changelist" comment="update2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Projekt3/CommandLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projekt3/CommandLine.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Projekt3/JudgmentFunc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projekt3/JudgmentFunc.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -40,13 +39,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="4" />
-          <entry key="java" value="1828" />
+          <entry key="java" value="1899" />
           <entry key="txt" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1828" />
+          <entry key="JAVA" value="1899" />
           <entry key="PLAIN_TEXT" value="11" />
         </counts>
       </usages-collector>
@@ -81,8 +80,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Projekt3/JudgmentFunc.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="90" column="34" lean-forward="true" selection-start-line="90" selection-start-column="34" selection-end-line="90" selection-end-column="52" />
+            <state relative-caret-position="445">
+              <caret line="47" column="24" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -167,8 +166,8 @@
         <option value="$PROJECT_DIR$/src/Projekt3/Main.java" />
         <option value="$PROJECT_DIR$/src/Projekt3/HtmlParser.java" />
         <option value="$PROJECT_DIR$/src/Projekt3/Judge.java" />
-        <option value="$PROJECT_DIR$/src/Projekt3/JudgmentFunc.java" />
         <option value="$PROJECT_DIR$/src/Projekt3/CommandLine.java" />
+        <option value="$PROJECT_DIR$/src/Projekt3/JudgmentFunc.java" />
       </list>
     </option>
   </component>
@@ -230,7 +229,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546014267219" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546014829290" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -282,7 +281,7 @@
       <workItem from="1543884632799" duration="1037000" />
       <workItem from="1544128543313" duration="1292000" />
       <workItem from="1544952336609" duration="523000" />
-      <workItem from="1545682014998" duration="30434000" />
+      <workItem from="1545682014998" duration="30942000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1544128693344</created>
@@ -368,11 +367,18 @@
       <option name="project" value="LOCAL" />
       <updated>1546014093537</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="update2">
+      <created>1546014275025</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1546014275026</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33286000" />
+    <option name="totallyTimeSpent" value="33794000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -586,8 +592,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Projekt3/JudgmentFunc.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="90" column="34" lean-forward="true" selection-start-line="90" selection-start-column="34" selection-end-line="90" selection-end-column="52" />
+        <state relative-caret-position="445">
+          <caret line="47" column="24" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
