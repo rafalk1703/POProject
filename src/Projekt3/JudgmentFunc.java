@@ -88,7 +88,7 @@ public class JudgmentFunc {
         return result.toString();
     }
     //VIII
-    public Map<CourtType,Integer> courtTypeDistribution(){
+    public Map<CourtType,Integer> judgmentsByCourt(){
         Collection<Judgment> judgments = judgmentHashMap.values();
         Map<CourtType,Integer> distribution = new HashMap<>();
         for(Judgment judgment: judgments){

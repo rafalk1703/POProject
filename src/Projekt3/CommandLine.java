@@ -39,7 +39,7 @@ public class CommandLine {
                     System.out.println(f.judgementsPerMonth());
                 }
                 else if (ord.equals("courts")) {
-                    System.out.println(f.courtTypeDistribution());
+                    System.out.println(f.judgmentsByCourt());
                 }
                 else if (ord.equals("regulations")) {
                     System.out.println(f.topLaws());
