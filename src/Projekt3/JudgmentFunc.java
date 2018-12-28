@@ -28,10 +28,10 @@ public class JudgmentFunc {
             Judgment judgment = judgmentHashMap.get(signature);
             StringBuilder string = new StringBuilder();
             string.append("Sygnatura orzeczenia: " + signature + "\n");
-            string.append("Sygnatura orzeczenia: " + judgment.getCourtCases() + "\n");
+            string.append("Sygnatura orzeczenia: " + judgment.getCourtCases().toString() + "\n");
             string.append("Data wydania orzeczenia: " + judgment.getSource().publicationDate + "\n");
-            string.append("Rodzaj sądu: " + judgment.getCourtType() + "\n");
-            string.append("Sędziowie: " + judgment.getJudges() + "\n");
+            string.append("Rodzaj sądu: " + judgment.getCourtType().toString() + "\n");
+            string.append("Sędziowie: " + judgment.getJudges().toString() + "\n");
             return string.toString();
         }
 
@@ -54,8 +54,8 @@ public class JudgmentFunc {
         for(Judgment judgment : judgmentHashMap.values()){
             for (Judge judge : judgment.getJudges()){
                 if(judgeHashMap.containsKey(judge)){
-                    Integer oldValue = judgeHashMap.get(judge);
-                    judgeHashMap.replace( judge, oldValue,oldValue + 1);
+                    Integer val = judgeHashMap.get(judge);
+                    judgeHashMap.replace( judge, val,val + 1);
                 }
                 else{
                     judgeHashMap.put(judge,1);
