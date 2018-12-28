@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="932adade-6686-4c64-89f8-c49324ec22e5" name="Default Changelist" comment="update2">
+    <list default="true" id="932adade-6686-4c64-89f8-c49324ec22e5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Projekt3/JudgmentFunc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projekt3/JudgmentFunc.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -80,7 +79,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Projekt3/JudgmentFunc.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="445">
+            <state relative-caret-position="365">
               <caret line="47" column="24" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -179,7 +178,7 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="33" />
-    <option name="y" value="36" />
+    <option name="y" value="33" />
     <option name="width" value="1407" />
     <option name="height" value="815" />
   </component>
@@ -197,11 +196,6 @@
             <path>
               <item name="Projekt3" type="b2602c69:ProjectViewProjectNode" />
               <item name="Projekt3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Projekt3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Projekt3" type="462c0819:PsiDirectoryNode" />
-              <item name="libraries" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Projekt3" type="b2602c69:ProjectViewProjectNode" />
@@ -229,7 +223,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546014829290" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546019671867" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -281,7 +275,7 @@
       <workItem from="1543884632799" duration="1037000" />
       <workItem from="1544128543313" duration="1292000" />
       <workItem from="1544952336609" duration="523000" />
-      <workItem from="1545682014998" duration="30942000" />
+      <workItem from="1545682014998" duration="31611000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1544128693344</created>
@@ -374,11 +368,18 @@
       <option name="project" value="LOCAL" />
       <updated>1546014275026</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="update2">
+      <created>1546014839235</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1546014839236</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33794000" />
+    <option name="totallyTimeSpent" value="34463000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -592,7 +593,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Projekt3/JudgmentFunc.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
+        <state relative-caret-position="365">
           <caret line="47" column="24" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
