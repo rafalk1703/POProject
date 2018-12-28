@@ -94,7 +94,6 @@ public class JudgmentFunc {
                 distribution.put(judgment.getCourtType(),1);
             }
             else{
-                Integer a = distribution.get(judgment.getCourtType());
                 distribution.replace(judgment.getCourtType(),distribution.get(judgment.getCourtType()),distribution.get(judgment.getCourtType())+1);
             }
         }
