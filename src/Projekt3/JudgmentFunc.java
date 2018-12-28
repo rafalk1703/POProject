@@ -130,7 +130,8 @@ public class JudgmentFunc {
         for(Judgment judgment : judgments){
             judges += judgment.getJudges().size();
         }
-        return judges/judgments.size();
+        int i=judgments.size();
+        return judges/i;
     }
 
     public String help (){
