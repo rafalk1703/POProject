@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-public class Parser {
+public class JsonParser {
 
     public List<Judgment> parse(String file) {
         String newFile = removeMetadata(file);
@@ -20,31 +20,21 @@ public class Parser {
 
 
 
-    private String removeMetadata(String parsedJson) {
-        int start = parsedJson.indexOf("items") + 7;
-        int end = parsedJson.indexOf("queryTemplate") - 2;
-        return parsedJson.substring(start, end);
+    private String removeMetadata(String json) {
+        int start = json.indexOf("items") + 7;
+        int end = json.indexOf("queryTemplate") - 2;
+        return json.substring(start, end);
     }
 
 
-    public HashMap<String, Judgment> parser(String [] folderName)
+    public HashMap<String, Judgment> parser(File f)
     {
 
 
-        if(folderName.length != 1)
-        {
-            System.out.println("nie podano nazwy folderu");
-            return null;
-        }
-        final File folder = new File(folderName[0]);
-        if(!folder.isDirectory())
-        {
-            System.out.println("nie podano nazwy folderu");
-            return null;
-        }
+
         HashMap<String, Judgment> hashmap = new HashMap<>();
         List<List<Judgment>> allJudgments = new ArrayList<>();
-        File[] files = folder.listFiles();
+        File[] files = f.listFiles();
 
         if(files == null)
         {
@@ -61,7 +51,7 @@ public class Parser {
 
         for(List<Judgment> list : allJudgments){
             for(Judgment judgment : list){
-                for(CourtCase courtCase : judgment.courtCases){
+                for(CourtCase courtCase : judgment.getCourtCases()){
                     hashmap.put(courtCase.caseNumber, judgment);
                 }
             }

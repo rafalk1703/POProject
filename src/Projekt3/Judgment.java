@@ -5,35 +5,30 @@ import java.util.List;
 
 public class Judgment
 {
-    int id;
-    CourtType courtType;
-    List<CourtCase> courtCases;
-    JudgmentType judgmentType;
-    List<Judge> judges;
-    JudgmentSource judgmentSource;
-    List<String> courtReporters;
-    String decision, summary, textContent;
-    List<String> legalBases;
-    List<Regulation> referencedRegulations;
-    List<String> keywords;
-    List<ReferencedCourtCase> referencedCourtCases;
-    String receiptDate;
-    String meansOfAppeal, judgmentResult;
-    List<String> lowerCourtJudgments;
-    PersonnelType personnelType;
-    int divisionId;
-    List<Chamber> chambers;
-    Date judgmentDate;
+    private int id;
+    private CourtType courtType;
+    private List<CourtCase> courtCases;
+    private JudgmentType judgmentType;
+    private List<Judge> judges;
+    private JudgmentSource judgmentSource;
+    private List<String> courtReporters;
+    private String decision, summary, textContent;
+    private List<String> legalBases;
+    private List<Regulation> referencedRegulations;
+    private List<String> keywords;
+    private List<ReferencedCourtCase> referencedCourtCases;
+    private String receiptDate;
+    private String meansOfAppeal, judgmentResult;
+    private List<String> lowerCourtJudgments;
+    private List<Chamber> chambers;
 
 
-    public int getId() {
-
-        return id;
+    public void setTextContent(String textContent) {
+        this.textContent = textContent;
     }
 
-    public void setId(int id) {
-
-        this.id = id;
+    public String getTextContent() {
+        return textContent;
     }
 
     public CourtType getCourtType() {
@@ -97,35 +92,6 @@ public class Judgment
         this.decision = decision;
     }
 
-    public String getSummary() {
-
-        return summary;
-    }
-
-    public void setSummary(String summary) {
-
-        this.summary = summary;
-    }
-
-    public String getTextContent() {
-
-        return textContent;
-    }
-
-    public void setTextContent(String textContent) {
-
-        this.textContent = textContent;
-    }
-
-    public List<String> getLegalBases() {
-
-        return legalBases;
-    }
-
-    public void setLegalBases(List<String> legalBases) {
-
-        this.legalBases = legalBases;
-    }
 
     public List<Regulation> getReferencedRegulations() {
 

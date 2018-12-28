@@ -13,7 +13,7 @@ public enum CourtType
         switch(this)
         {
             case COMMON:
-                return "Sąd powszechny";
+                return "Sąd Powszechny";
             case SUPREME:
                 return "Sąd Najwyższy";
             case ADMINISTRATIVE:
