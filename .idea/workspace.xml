@@ -3,25 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="932adade-6686-4c64-89f8-c49324ec22e5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projekt3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Projekt3.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/json /judgments-1117.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/json /judgments-1287.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/json /judgments-1324.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/json /judgments-1338.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/json /judgments-1912.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/json /judgments-348.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/json /judgments-356.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/json /judgments-520.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/json /judgments-924.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/json /judgments-995.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Projekt3/CommandLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projekt3/CommandLine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Projekt3/CourtCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projekt3/CourtCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Projekt3/CourtType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projekt3/CourtType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Projekt3/Judgment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projekt3/Judgment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Projekt3/JudgmentFunc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projekt3/JudgmentFunc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Projekt3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projekt3/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Projekt3/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projekt3/JsonParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Projekt3/Regulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projekt3/Regulation.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -57,14 +38,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="4" />
-          <entry key="java" value="1521" />
-          <entry key="txt" value="6" />
+          <entry key="java" value="1551" />
+          <entry key="txt" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1521" />
-          <entry key="PLAIN_TEXT" value="10" />
+          <entry key="JAVA" value="1551" />
+          <entry key="PLAIN_TEXT" value="11" />
         </counts>
       </usages-collector>
     </session>
@@ -74,16 +55,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Projekt3/CommandLine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+            <state relative-caret-position="30">
+              <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Projekt3/JudgmentFunc.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
+            <state relative-caret-position="330">
               <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -120,7 +101,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Projekt3/JsonParser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="792">
+            <state relative-caret-position="846">
               <caret line="57" selection-start-line="57" selection-end-line="57" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -132,8 +113,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Projekt3/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+            <state relative-caret-position="330">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -141,7 +122,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Projekt3/HtmlParser.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1891">
@@ -184,11 +165,11 @@
         <option value="$PROJECT_DIR$/src/Projekt3/CourtCase.java" />
         <option value="$PROJECT_DIR$/src/Projekt3/CourtType.java" />
         <option value="$PROJECT_DIR$/src/Projekt3/JsonParser.java" />
-        <option value="$PROJECT_DIR$/src/Projekt3/Main.java" />
         <option value="$PROJECT_DIR$/src/Projekt3/Judgment.java" />
         <option value="$PROJECT_DIR$/src/Projekt3/HtmlParser.java" />
         <option value="$PROJECT_DIR$/src/Projekt3/JudgmentFunc.java" />
         <option value="$PROJECT_DIR$/src/Projekt3/CommandLine.java" />
+        <option value="$PROJECT_DIR$/src/Projekt3/Main.java" />
       </list>
     </option>
   </component>
@@ -250,7 +231,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545994560845" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545994741843" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -302,7 +283,7 @@
       <workItem from="1543884632799" duration="1037000" />
       <workItem from="1544128543313" duration="1292000" />
       <workItem from="1544952336609" duration="523000" />
-      <workItem from="1545682014998" duration="26296000" />
+      <workItem from="1545682014998" duration="26542000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1544128693344</created>
@@ -311,11 +292,18 @@
       <option name="project" value="LOCAL" />
       <updated>1544128693344</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update2">
+      <created>1545994739153</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1545994739155</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29148000" />
+    <option name="totallyTimeSpent" value="29394000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -368,7 +356,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="update2" />
+    <option name="LAST_COMMIT_MESSAGE" value="update2" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Projekt3/JudgmentForm.java" />
@@ -466,20 +455,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Projekt3/HtmlParser.java">
+    <entry file="file://$PROJECT_DIR$/src/Projekt3/JudgmentFunc.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1891">
-          <caret line="127" column="64" selection-start-line="127" selection-start-column="64" selection-end-line="127" selection-end-column="64" />
+        <state relative-caret-position="330">
+          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Projekt3/CommandLine.java">
+    <entry file="file://$PROJECT_DIR$/src/Projekt3/Regulation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+        <state relative-caret-position="165">
+          <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
         </state>
       </provider>
     </entry>
@@ -497,16 +486,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Projekt3/Regulation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Projekt3/JsonParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
+        <state relative-caret-position="846">
           <caret line="57" selection-start-line="57" selection-end-line="57" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -516,18 +498,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Projekt3/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+        <state relative-caret-position="330">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Projekt3/JudgmentFunc.java">
+    <entry file="file://$PROJECT_DIR$/src/Projekt3/CommandLine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+        <state relative-caret-position="30">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Projekt3/HtmlParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1891">
+          <caret line="127" column="64" selection-start-line="127" selection-start-column="64" selection-end-line="127" selection-end-column="64" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
