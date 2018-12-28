@@ -36,14 +36,16 @@ public class JudgmentFunc {
         }
 
         //V
-        public String judgementsPerJudge(Judge judge){
+        public String judgementsPerJudge(String name){
             int result = 0;
+            Judge judge=new Judge();
+            judge.name=name;
             for(Judgment judgment : judgmentHashMap.values()){
                 if(judgment.getJudges().contains(judge)){
                     result++;
                 }
             }
-                return Integer.toString(result);
+            return Integer.toString(result);
         }
 
     //VI

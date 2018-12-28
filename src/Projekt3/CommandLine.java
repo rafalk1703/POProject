@@ -26,7 +26,9 @@ public class CommandLine {
                 if (ord.equals("rubrum")) {
                     System.out.println(f.rubrum(parameters));
                 }
-
+                else if (ord.equals("judge")) {
+                    System.out.println(f.judgementsPerJudge(parameters));
+                }
                 else if (ord.equals("content")) {
                     System.out.println(f.showTextcontent());
                 }
