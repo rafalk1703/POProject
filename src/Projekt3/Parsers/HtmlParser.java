@@ -1,5 +1,6 @@
-package Projekt3;
+package Projekt3.Parsers;
 
+import Projekt3.*;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
@@ -50,7 +51,7 @@ public class HtmlParser {
 
 
         for (Judgment judgment : judgments) {
-            hashmap.put(judgment.getCourtCases().get(0).caseNumber, judgment);
+            hashmap.put(judgment.getCourtCases().get(0).getCaseNumber(), judgment);
         }
 
 
@@ -79,8 +80,8 @@ public class HtmlParser {
                 for (String string : judges) {
                     Judge judge = new Judge();
                     String name = string.replaceFirst(" \\/(.*?)\\/", "");
-                    judge.name = name;
-                    judge.specialRole = findRole(string);
+                    judge.setName(name);
+                    judge.setSpecialRole(findRole(string));
                     result.add(judge);
                 }
                 break;
@@ -143,9 +144,9 @@ public class HtmlParser {
                     Elements table = Jsoup.parse(x).select("a");
                     Elements table2 = Jsoup.parse(x).select("span.nakt");
                     for (int i = 0; i < table.size(); i++) {
-                        Regulation r = new Regulation();
-                        r.journalTitle = table.get(i).html() + " - " + table2.get(i).html();
-                        regs.add(r);
+                        Regulation regulation = new Regulation();
+                        regulation.setJournalTitle(table.get(i).html() + " - " + table2.get(i).html());
+                        regs.add(regulation);
                     }
                     break;
                 }

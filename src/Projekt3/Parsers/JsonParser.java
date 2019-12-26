@@ -1,5 +1,7 @@
-package Projekt3;
+package Projekt3.Parsers;
 
+import Projekt3.CourtCase;
+import Projekt3.Judgment;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 
@@ -52,7 +54,7 @@ public class JsonParser {
         for(List<Judgment> list : allJudgments){
             for(Judgment judgment : list){
                 for(CourtCase courtCase : judgment.getCourtCases()){
-                    hashmap.put(courtCase.caseNumber, judgment);
+                    hashmap.put(courtCase.getCaseNumber(), judgment);
                 }
             }
 

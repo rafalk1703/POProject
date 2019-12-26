@@ -4,5 +4,13 @@ import java.util.List;
 
 public class JudgmentsList
 {
-    List<Judgment> items;
+    private List<Judgment> items;
+
+    public List<Judgment> getItems() {
+        return items;
+    }
+
+    public void setItems(List<Judgment> items) {
+        this.items = items;
+    }
 }

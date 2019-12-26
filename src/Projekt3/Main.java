@@ -1,8 +1,10 @@
 package Projekt3;
 
+import Projekt3.Parsers.HtmlParser;
+import Projekt3.Parsers.JsonParser;
+
 import java.io.File;
 import java.util.HashMap;
-import java.util.Map;
 
 public class Main {
     public static void main(String [] args){
